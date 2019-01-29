@@ -5,6 +5,7 @@
 	THIS CODE IS MADE AVAILABLE AS IS, WITHOUT WARRANTY OF ANY KIND. THE ENTIRE 
 	RISK OF THE USE OR THE RESULTS FROM THE USE OF THIS CODE REMAINS WITH THE USER.
 	
+    Version 3.2 Jan 2019 Small update
     Version 3.1 Mar 2018 Small update and placed code on GitHub
     Version 3.0 May 2016 Update of the copy process, so it skips existing files and other minor fixes
     Version 2.0 March 2016 Redefined the Copy process
@@ -41,9 +42,9 @@
 	
     #>
 
-#Set the TargetPath to match your wanted settings, in this example it creates a spotlight folder in your OneDrive.
 #requires -Version 2
 $VerbosePreference = "Continue"
+#Set the TargetPath to match your wanted settings, in this example it creates a spotlight folder in your OneDrive.
 $TargetPath = "$($env:USERPROFILE)\OneDrive\Spotlight"
 
 $ih=0
